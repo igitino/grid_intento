@@ -1,0 +1,32 @@
+.main-container {
+    
+    display:grid;
+    background-color: red;
+    grid-template-columns: auto auto;
+    box-sizing:border-box;
+  
+}
+.main-container div {
+    color:black;
+    border: 1px solid black;
+     
+}
+.main-container video {
+    display:block;
+
+    width:100%;
+    height:100%;
+    
+    /* Scale video to container size */
+   object-fit: cover;
+   object-position: center;
+    
+}
+
+.item1{
+    
+    grid-column: 1 / 3;
+    background-color: green;
+    height:1080px;
+
+}
